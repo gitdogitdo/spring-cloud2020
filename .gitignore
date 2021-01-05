@@ -1,0 +1,16 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+/.idea/
+
+/**/.settings/
+/**/target/
+/**/.classpath
+/**/target/
+/**/.iml
+/**/*.iml
+
+*.iml
