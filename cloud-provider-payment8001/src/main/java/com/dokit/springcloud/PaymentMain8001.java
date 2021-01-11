@@ -2,13 +2,14 @@ package com.dokit.springcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author dokit
  * @Since 2020/3/8 23:13
  */
 @SpringBootApplication
-//@EnableEurekaClient
+@EnableEurekaClient
 //@EnableDiscoveryClient
 public class PaymentMain8001 {
 
